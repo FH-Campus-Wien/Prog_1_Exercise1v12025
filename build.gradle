@@ -4,8 +4,8 @@ plugins {
     id 'jvm-test-suite'
 }
 
-group 'at.ac.hcw'
-version '1.0-SNAPSHOT'
+group = 'at.ac.hcw'
+version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -22,7 +22,7 @@ testing.suites.configureEach {
 
 //noinspection GroovyAssignabilityCheck
 run {
-    standardInput(System.in)
+    standardInput = System.in
 }
 
 application {
