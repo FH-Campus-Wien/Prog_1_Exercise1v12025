@@ -24,7 +24,7 @@ jobs:
         with:
           test-name: sayHelloWorld
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.sayHelloWorld
+          command: gradle test --tests at.ac.hcw.AppTest.sayHelloWorld
           timeout: 1
           max-score: 1
       - name: helloRobot
@@ -33,7 +33,7 @@ jobs:
         with:
           test-name: helloRobot
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.helloRobot
+          command: gradle test --tests at.ac.hcw.AppTest.helloRobot
           timeout: 1
           max-score: 1
       - name: sumOfLiterals
@@ -42,7 +42,7 @@ jobs:
         with:
           test-name: sumOfLiterals
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.sumOfLiterals
+          command: gradle test --tests at.ac.hcw.AppTest.sumOfLiterals
           timeout: 1
           max-score: 1
       - name: addTwoNumbers
@@ -51,7 +51,7 @@ jobs:
         with:
           test-name: addTwoNumbers
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.addTwoNumbers
+          command: gradle test --tests at.ac.hcw.AppTest.addTwoNumbers
           timeout: 1
           max-score: 1
       - name: swapTwoNumbers
@@ -60,7 +60,7 @@ jobs:
         with:
           test-name: swapTwoNumbers
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.swapTwoNumbers
+          command: gradle test --tests at.ac.hcw.AppTest.swapTwoNumbers
           timeout: 1
           max-score: 1
       - name: compareTwoNumbers
@@ -69,7 +69,7 @@ jobs:
         with:
           test-name: compareTwoNumbers
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.compareTwoNumbers*
+          command: gradle test --tests at.ac.hcw.AppTest.compareTwoNumbers*
           timeout: 1
           max-score: 1
       - name: ratingSalesPerson
@@ -78,7 +78,7 @@ jobs:
         with:
           test-name: ratingSalesPerson
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.ratingSalesPerson*
+          command: gradle test --tests at.ac.hcw.AppTest.ratingSalesPerson*
           timeout: 1
           max-score: 1
       - name: getCommissionRate
@@ -87,7 +87,7 @@ jobs:
         with:
           test-name: getCommissionRate
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.getCommissionRate*
+          command: gradle test --tests at.ac.hcw.AppTest.getCommissionRate*
           timeout: 1
           max-score: 1
       - name: leapYear
@@ -96,7 +96,7 @@ jobs:
         with:
           test-name: leapYear
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.leapYear*
+          command: gradle test --tests at.ac.hcw.AppTest.leapYear*
           timeout: 1
           max-score: 1
       - name: transposeNumbers
@@ -105,7 +105,7 @@ jobs:
         with:
           test-name: transposeNumbers
           setup-command: ''
-          command: gradle test --tests at.ac.fhcampuswien.AppTest.transposedNumbers
+          command: gradle test --tests at.ac.hcw.AppTest.transposedNumbers
           timeout: 1
           max-score: 1
       - name: Autograding Reporter
