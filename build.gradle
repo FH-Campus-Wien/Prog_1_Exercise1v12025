@@ -4,7 +4,7 @@ plugins {
     id 'jvm-test-suite'
 }
 
-group 'at.ac.fhcampuswien'
+group 'at.ac.hcw'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -16,16 +16,8 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
 }
 
-testing {
-    //noinspection GroovyAssignabilityCheck
-    suites {
-        configureEach {
-            useJUnitJupiter()
-            dependencies {
-                implementation('org.junit.jupiter:junit-jupiter-api:5.9.0')
-            }
-        }
-    }
+testing.suites.configureEach {
+    useJUnitJupiter()
 }
 
 //noinspection GroovyAssignabilityCheck
@@ -34,7 +26,7 @@ run {
 }
 
 application {
-    mainClass  = 'at.ac.fhcampuswien.App'
+    mainClass  = 'at.ac.hcw.App'
 }
 
 allprojects {
