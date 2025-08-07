@@ -1,11 +1,21 @@
-# Exercise 8
+# Exercise 1
 
-> Please add your solution under src/main/java/...
+> Simple Tasks
 
-> Keep in mind not to modify other files like AppTest.java.
+> Please add your code to App.java under src/main/java/...
 
-Please find a task description in a separate handout.
+> literals, variables, input, output operations, operators, conditions
+
+Please find a task description in the seperate handout.
 
 Good luck :four_leaf_clover:
 - [ ] Task 1
 - [ ] Task 2
+- [ ] Task 3
+- [ ] Task 4
+- [ ] Task 5
+- [ ] Task 6
+- [ ] Task 7
+- [ ] Task 8
+- [ ] Task 9
+- [ ] Task 10
